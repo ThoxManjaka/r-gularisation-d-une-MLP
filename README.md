@@ -27,24 +27,3 @@ Pour un essai rapide :
 ```bash
 python src/train.py --epochs 10
 ```
-
-## Sorties générées
-
-- `models/mlp_baseline.keras`
-- `models/mlp_l2.keras`
-- `models/mlp_distribution.keras`
-- `results/figures/confusion_matrix_<modele>.png`
-- `results/figures/history_<modele>.png`
-- `results/metrics/<modele>_metrics.json`
-- `results/metrics/comparison.csv`
-
-## Organisation
-
-```text
-src/config.py       # Paramètres et chemins
-src/data_loader.py  # Chargement, division et standardisation
-src/model.py        # MLP et couche ActivationRegularization
-src/train.py        # Entraînement, évaluation et sauvegarde
-src/evaluate.py     # Métriques et visualisations
-src/utils.py        # Reproductibilité et utilitaires
-```
