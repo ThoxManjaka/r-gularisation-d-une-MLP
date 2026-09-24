@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+models/*.keras
+results/figures/*.png
+results/metrics/*.json
+results/metrics/*.csv
+!models/.gitkeep
+!results/figures/.gitkeep
+!results/metrics/.gitkeep
