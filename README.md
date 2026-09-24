@@ -1,14 +1,10 @@
 # Comparaison de MLP et régularisations
 
-Projet extrait du notebook `optimisation-d-une-mlp-dans-sa-regularisation.ipynb`.
-
 Il compare trois perceptrons multicouches (MLP) sur le jeu de données **Breast Cancer Wisconsin** de scikit-learn :
 
 - Un MLP baseline sans régularisation.
 - Un MLP avec régularisation L2.
 - Un MLP avec régularisation personnalisée des activations : pénalité de sparsité par divergence KL et pénalité anti-saturation fondée sur l'écart-type.
-
-> Le notebook fourni ne traite pas la détection d'URLs malveillantes : l'arborescence a donc été adaptée au véritable sujet du code.
 
 ## Installation
 
